@@ -130,6 +130,18 @@ img {
  ==================================== */
 @media (min-width:769px) {
 
+  .banner{
+    padding-top: 120px;
+  }
+
+  .main-header{
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    width: 100%;
+    z-index: 3;
+  }
+
   .bodycontainer {
     width: 80%;
     margin: auto;
@@ -153,6 +165,9 @@ img {
 
 }
 @media (min-width: 1020px) {
+  .banner{
+    padding-top: 74px;
+  }
   .container {
     flex-direction: row;
     justify-content: space-between;
@@ -163,4 +178,5 @@ img {
   .secondary {
     flex-grow: 1.5;
   }
+
 }
